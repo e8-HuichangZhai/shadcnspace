@@ -19,7 +19,7 @@ export default function Dialog03() {
       <DialogTrigger render={<Button variant="outline" className="cursor-pointer" />}>
         Subscribe
       </DialogTrigger>
-      <DialogContent className="data-open:slide-in-from-left-8 data-closed:slide-out-to-left-8 data-open:zoom-in-100 data-closed:zoom-out-100 duration-300">
+      <DialogContent className="data-open:slide-in-from-left-8 data-closed:slide-out-to-left-8 data-open:zoom-in-100 data-closed:zoom-out-100 duration-300 [[data-slot=dialog-overlay]:has(~_&)]:duration-300">
         <div className="flex items-center justify-center size-10 rounded-lg bg-primary/10 text-primary mb-1">
           <MailIcon size={18} />
         </div>

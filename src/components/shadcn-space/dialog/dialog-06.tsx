@@ -19,7 +19,7 @@ export default function Dialog06() {
         What's New
       </DialogTrigger>
       <DialogContent
-        className="data-open:zoom-in-150! data-closed:zoom-out-150 duration-300"
+        className="data-open:zoom-in-150! data-closed:zoom-out-150 duration-300 [[data-slot=dialog-overlay]:has(~_&)]:duration-300"
         showCloseButton={false}
       >
         <div className="flex flex-col gap-4">

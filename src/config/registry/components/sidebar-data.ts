@@ -697,6 +697,20 @@ export const componentsMap: ComponentsMap = {
     image: "https://images.shadcnspace.com/assets/components/separator.webp",
     component: React.lazy(() => import("@/app/(site)/docs/component-info/separator")),
   },
+  sheet: {
+    title: "Sheet",
+    url: "/components/sheet",
+    headingTitle: "Shadcn Sheet Components & Examples",
+    icon: SquareChevronUp,
+    blockName: "sheet",
+    columns: 2,
+    description:
+      "Build responsive slide-out panels, sidebars, drawers, and overlays with our {count}+ Shadcn Sheet Components. Created with Next.js, React, TypeScript, Tailwind CSS, Base UI, and Radix UI for modern web applications.",
+    image: "https://images.shadcnspace.com/assets/components/sheet.webp",
+    component: React.lazy(
+      () => import("@/app/(site)/docs/component-info/sheet"),
+    ),
+  },
   form: {
     title: "Form",
     headingTitle: "Shadcn Form",

@@ -19,7 +19,7 @@ export default function Dialog05() {
         Complete Payment
       </DialogTrigger>
       <DialogContent
-        className="sm:max-w-xs data-open:zoom-in-50! data-closed:zoom-out-50 duration-300"
+        className="sm:max-w-xs data-open:zoom-in-50! data-closed:zoom-out-50 duration-300 [[data-slot=dialog-overlay]:has(~_&)]:duration-300"
         showCloseButton={false}
       >
         <div className="flex flex-col items-center text-center gap-4 py-2">

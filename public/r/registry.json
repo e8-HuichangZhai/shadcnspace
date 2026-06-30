@@ -2555,6 +2555,24 @@
       ]
     },
     {
+      "name": "badge-10",
+      "title": "Badge 10 - With Avatar",
+      "description": "Badge component with avatar",
+      "type": "registry:component",
+      "dependencies": [],
+      "registryDependencies": [
+        "badge",
+        "avatar"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/badge/badge-10.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/badge/badge-10.tsx"
+        }
+      ]
+    },
+    {
       "name": "calendar-01",
       "title": "Calendar 01 - Standard calendar",
       "description": "Calendar component",
@@ -3464,6 +3482,24 @@
           "path": "src/components/shadcn-space/input/input-19.tsx",
           "type": "registry:component",
           "target": "components/shadcn-space/input/input-19.tsx"
+        }
+      ]
+    },
+    {
+      "name": "input-20",
+      "title": "Input 20 - Range",
+      "description": "Input component",
+      "type": "registry:component",
+      "dependencies": [],
+      "registryDependencies": [
+        "input",
+        "label"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/input/input-20.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/input/input-20.tsx"
         }
       ]
     },
@@ -5659,6 +5695,27 @@
       ]
     },
     {
+      "name": "slider-05",
+      "title": "Slider 05 - Price Range Filter",
+      "description": "A dual-thumb price range filter slider with a hover ghost preview — hover outside the selected range to see a semi-transparent extension, with thumb scale animation on hover.",
+      "type": "registry:component",
+      "dependencies": [
+        "@number-flow/react",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "slider",
+        "button"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/slider/slider-05.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/slider/slider-05.tsx"
+        }
+      ]
+    },
+    {
       "name": "skeleton-01",
       "title": "Skeleton 01 - Profile with Stats",
       "description": "Animated profile skeleton with staggered fade-up motion on each element — avatar, text lines, stats grid, and CTA button.",
@@ -6205,6 +6262,51 @@
       ]
     },
     {
+      "name": "collapsible-04",
+      "title": "Collapsible 04 - User Profile",
+      "description": "A collapsible user profile with user information like last activity, online since and location and actions.",
+      "type": "registry:component",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [
+        "collapsible",
+        "avatar",
+        "separator"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/collapsible/collapsible-04.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/collapsible/collapsible-04.tsx"
+        }
+      ]
+    },
+    {
+      "name": "collapsible-05",
+      "title": "Collapsible 05 - Token Usage",
+      "description": "A collapsible usage card with a progress bar, summary and details.",
+      "type": "registry:component",
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [
+        "collapsible",
+        "button",
+        "progress",
+        "card"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/collapsible/collapsible-05.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/collapsible/collapsible-05.tsx"
+        }
+      ]
+    },
+    {
       "name": "progress-01",
       "title": "Progress 01 - Simple Upload",
       "description": "A minimal, animated progress bar with status text and a reset action.",
@@ -6320,6 +6422,26 @@
           "path": "src/components/shadcn-space/dropdown-menu/dropdown-menu-02.tsx",
           "type": "registry:component",
           "target": "components/shadcn-space/dropdown-menu/dropdown-menu-02.tsx"
+        }
+      ]
+    },
+    {
+      "name": "dropdown-menu-03",
+      "title": "Dropdown Menu 03 - Voice Chat",
+      "description": "A voice chat dropdown with avatar previews, real-time search, and smooth layout animations.",
+      "type": "registry:component",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "avatar",
+        "button"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/dropdown-menu/dropdown-menu-03.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/dropdown-menu/dropdown-menu-03.tsx"
         }
       ]
     },
@@ -7346,6 +7468,93 @@
           "path": "src/components/shadcn-space/separator/separator-08.tsx",
           "type": "registry:component",
           "target": "components/shadcn-space/separator/separator-08.tsx"
+        }
+      ]
+    },
+    {
+      "name": "sheet-01",
+      "title": "Sheet 01 - Different Directions",
+      "description": "Drawer with different directions - top, right, bottom, left",
+      "type": "registry:component",
+      "dependencies": [],
+      "registryDependencies": [
+        "sheet",
+        "button",
+        "input",
+        "label"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/sheet/sheet-01.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/sheet/sheet-01.tsx"
+        }
+      ]
+    },
+    {
+      "name": "sheet-02",
+      "title": "Sheet 02 - Scrollable Content",
+      "description": "Drawer with scrollable content",
+      "type": "registry:component",
+      "dependencies": [],
+      "registryDependencies": [
+        "sheet",
+        "button",
+        "scroll-area"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/sheet/sheet-02.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/sheet/sheet-02.tsx"
+        }
+      ]
+    },
+    {
+      "name": "sheet-03",
+      "title": "Sheet 03 - Shopping Cart",
+      "description": "Drawer with products list, quantity controls, and sticky footer with total and checkout button",
+      "type": "registry:component",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "sheet",
+        "button",
+        "button-group",
+        "badge",
+        "separator"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/sheet/sheet-03.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/sheet/sheet-03.tsx"
+        }
+      ]
+    },
+    {
+      "name": "sheet-04",
+      "title": "Sheet 04 - Filter Panel",
+      "description": "Drawer with products list, quantity controls, and sticky footer with total and checkout button",
+      "type": "registry:component",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "sheet",
+        "button",
+        "checkbox",
+        "slider",
+        "label",
+        "badge",
+        "separator"
+      ],
+      "files": [
+        {
+          "path": "src/components/shadcn-space/sheet/sheet-04.tsx",
+          "type": "registry:component",
+          "target": "components/shadcn-space/sheet/sheet-04.tsx"
         }
       ]
     }
