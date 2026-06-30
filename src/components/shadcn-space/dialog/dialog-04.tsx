@@ -18,7 +18,7 @@ export default function Dialog04() {
       <DialogTrigger render={<Button variant="outline" className="cursor-pointer" />}>
         View Profile
       </DialogTrigger>
-      <DialogContent className="data-open:slide-in-from-right-8 data-closed:slide-out-to-right-8 data-open:zoom-in-100 data-closed:zoom-out-100 duration-300">
+      <DialogContent className="data-open:slide-in-from-right-8 data-closed:slide-out-to-right-8 data-open:zoom-in-100 data-closed:zoom-out-100 duration-300 [[data-slot=dialog-overlay]:has(~_&)]:duration-300">
         <div className="flex items-center gap-3">
           <Avatar className="size-12">
             <AvatarImage

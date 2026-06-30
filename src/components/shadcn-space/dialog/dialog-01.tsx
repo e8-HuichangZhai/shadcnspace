@@ -19,7 +19,7 @@ export default function Dialog01() {
         Open Notification
       </DialogTrigger>
       <DialogContent
-        className="data-open:slide-in-from-top-8 data-closed:slide-out-to-top-8 data-open:zoom-in-100 data-closed:zoom-out-100 duration-300"
+        className="data-open:slide-in-from-top-8 data-closed:slide-out-to-top-8 data-open:zoom-in-100 data-closed:zoom-out-100 duration-300 [[data-slot=dialog-overlay]:has(~_&)]:duration-300"
         showCloseButton={false}
       >
         <div className="flex flex-col items-center text-center gap-4">

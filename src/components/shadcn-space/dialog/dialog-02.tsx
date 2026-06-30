@@ -19,7 +19,7 @@ export default function Dialog02() {
         Delete Item
       </DialogTrigger>
       <DialogContent
-        className="data-open:slide-in-from-bottom-8 data-closed:slide-out-to-bottom-8 data-open:zoom-in-100 data-closed:zoom-out-100 duration-300"
+        className="data-open:slide-in-from-bottom-8 data-closed:slide-out-to-bottom-8 data-open:zoom-in-100 data-closed:zoom-out-100 duration-300 [[data-slot=dialog-overlay]:has(~_&)]:duration-300"
         showCloseButton={false}
       >
         <div className="flex flex-col items-center text-center gap-4">

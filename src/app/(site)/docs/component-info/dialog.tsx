@@ -162,17 +162,6 @@ export default function DialogData() {
               </a>{" "}
               for user detail panels.
             </li>
-            <li>
-              Include inside{" "}
-              <a
-                href="/templates"
-                target="_blank"
-                className="text-primary underline hover:opacity-80"
-              >
-                Shadcn Templates
-              </a>{" "}
-              for dashboards and landing pages.
-            </li>
           </ul>
         </section>
 

@@ -667,7 +667,6 @@ export const components = [
       },
     ],
     category: categories["button"],
-    isNew: true
   },
   {
     name: "button-group-01",
@@ -878,7 +877,6 @@ export const components = [
     ],
     category: categories["badge"],
     isAnimate: true,
-    isNew: true,
   },
   {
     name: "badge-08",
@@ -896,7 +894,6 @@ export const components = [
     ],
     category: categories["badge"],
     isAnimate: true,
-    isNew: true,
   },
   {
     name: "badge-09",
@@ -914,6 +911,22 @@ export const components = [
     ],
     category: categories["badge"],
     isAnimate: true,
+  },
+  {
+    name: "badge-10",
+    title: "Badge 10 - With Avatar",
+    description: "Badge component with avatar",
+    type: "registry:component",
+    dependencies: [],
+    registryDependencies: ["badge", "avatar"],
+    files: [
+      {
+        path: "src/components/shadcn-space/badge/badge-10.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/badge/badge-10.tsx",
+      },
+    ],
+    category: categories["badge"],
     isNew: true,
   },
   {
@@ -1011,7 +1024,6 @@ export const components = [
       },
     ],
     category: categories["calendar"],
-    isNew: true,
   },
   {
     name: "calendar-07",
@@ -1028,7 +1040,6 @@ export const components = [
       },
     ],
     category: categories["calendar"],
-    isNew: true,
   },
   {
     name: "calendar-08",
@@ -1045,7 +1056,6 @@ export const components = [
       },
     ],
     category: categories["calendar"],
-    isNew: true,
   },
   {
     name: "calendar-09",
@@ -1062,7 +1072,6 @@ export const components = [
       },
     ],
     category: categories["calendar"],
-    isNew: true,
   },
   {
     name: "calendar-10",
@@ -1079,7 +1088,6 @@ export const components = [
       },
     ],
     category: categories["calendar"],
-    isNew: true,
   },
   {
     name: "calendar-11",
@@ -1096,7 +1104,6 @@ export const components = [
       },
     ],
     category: categories["calendar"],
-    isNew: true,
   },
   {
     name: "calendar-12",
@@ -1113,7 +1120,6 @@ export const components = [
       },
     ],
     category: categories["calendar"],
-    isNew: true,
   },
   {
     name: "calendar-13",
@@ -1130,7 +1136,6 @@ export const components = [
       },
     ],
     category: categories["calendar"],
-    isNew: true,
   },
   {
     name: "calendar-14",
@@ -1147,7 +1152,6 @@ export const components = [
       },
     ],
     category: categories["calendar"],
-    isNew: true,
   },
   {
     name: "calendar-15",
@@ -1164,7 +1168,6 @@ export const components = [
       },
     ],
     category: categories["calendar"],
-    isNew: true,
   },
   {
     name: "tooltip-01",
@@ -1699,6 +1702,23 @@ export const components = [
       },
     ],
     category: categories["input"],
+  },
+  {
+    name: "input-20",
+    title: "Input 20 - Range",
+    description: "Input component",
+    type: "registry:component",
+    registryDependencies: ["input", "label"],
+    dependencies: [],
+    files: [
+      {
+        path: "src/components/shadcn-space/input/input-20.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/input/input-20.tsx",
+      },
+    ],
+    category: categories["input"],
+    isNew: true,
   },
   {
     name: "textarea-01",
@@ -2413,7 +2433,6 @@ export const components = [
       },
     ],
     category: categories["tabs"],
-    isNew: true,
   },
   {
     name: "tabs-06",
@@ -2430,7 +2449,6 @@ export const components = [
       },
     ],
     category: categories["tabs"],
-    isNew: true,
   },
   {
     name: "tabs-07",
@@ -2447,7 +2465,6 @@ export const components = [
       },
     ],
     category: categories["tabs"],
-    isNew: true,
   },
   {
     name: "card-01",
@@ -2681,7 +2698,6 @@ export const components = [
       },
     ],
     category: categories["card"],
-    isNew: true,
   },
   {
     name: "card-15",
@@ -2699,7 +2715,6 @@ export const components = [
       },
     ],
     category: categories["card"],
-    isNew: true,
   },
   {
     name: "shine-border-01",
@@ -3547,6 +3562,24 @@ export const components = [
     category: categories["slider"],
   },
   {
+    name: "slider-05",
+    title: "Slider 05 - Price Range Filter",
+    description:
+      "A dual-thumb price range filter slider with a hover ghost preview — hover outside the selected range to see a semi-transparent extension, with thumb scale animation on hover.",
+    type: "registry:component",
+    registryDependencies: ["slider", "button"],
+    dependencies: ["@number-flow/react", "lucide-react"],
+    files: [
+      {
+        path: "src/components/shadcn-space/slider/slider-05.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/slider/slider-05.tsx",
+      },
+    ],
+    category: categories["slider"],
+    isNew: true,
+  },
+  {
     name: "skeleton-01",
     title: "Skeleton 01 - Profile with Stats",
     description: "Animated profile skeleton with staggered fade-up motion on each element — avatar, text lines, stats grid, and CTA button.",
@@ -3808,7 +3841,6 @@ export const components = [
       },
     ],
     category: categories["sonner"],
-    isNew: true,
   },
   {
     name: "sonner-07",
@@ -3826,7 +3858,6 @@ export const components = [
       },
     ],
     category: categories["sonner"],
-    isNew: true,
   },
   {
     name: "pagination-01",
@@ -4021,6 +4052,51 @@ export const components = [
     category: categories["collapsible"],
   },
   {
+    name: "collapsible-04",
+    title: "Collapsible 04 - User Profile",
+    description:
+      "A collapsible user profile with user information like last activity, online since and location and actions.",
+    type: "registry:component",
+    registryDependencies: [
+      "collapsible",
+      "avatar",
+      "separator",
+    ],
+    dependencies: ["lucide-react", "motion"],
+    files: [
+      {
+        path: "src/components/shadcn-space/collapsible/collapsible-04.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/collapsible/collapsible-04.tsx",
+      },
+    ],
+    category: categories["collapsible"],
+    isNew: true,
+  },
+    {
+    name: "collapsible-05",
+    title: "Collapsible 05 - Token Usage",
+    description:
+      "A collapsible usage card with a progress bar, summary and details.",
+    type: "registry:component",
+    registryDependencies: [
+      "collapsible",
+      "button",
+      "progress",
+      "card",
+    ],
+    dependencies: ["lucide-react", "motion"],
+    files: [
+      {
+        path: "src/components/shadcn-space/collapsible/collapsible-05.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/collapsible/collapsible-05.tsx",
+      },
+    ],
+    category: categories["collapsible"],
+    isNew: true,
+  },
+  {
     name: "progress-01",
     title: "Progress 01 - Simple Upload",
     description: "A minimal, animated progress bar with status text and a reset action.",
@@ -4118,6 +4194,24 @@ export const components = [
       },
     ],
     category: categories["dropdown-menu"],
+  },
+  {
+    name: "dropdown-menu-03",
+    title: "Dropdown Menu 03 - Voice Chat",
+    description:
+      "A voice chat dropdown with avatar previews, real-time search, and smooth layout animations.",
+    type: "registry:component",
+    registryDependencies: ["avatar", "button"],
+    dependencies: ["lucide-react"],
+    files: [
+      {
+        path: "src/components/shadcn-space/dropdown-menu/dropdown-menu-03.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/dropdown-menu/dropdown-menu-03.tsx",
+      },
+    ],
+    category: categories["dropdown-menu"],
+    isNew: true,
   },
   {
     name: "input-otp-01",
@@ -4284,7 +4378,6 @@ export const components = [
       },
     ],
     category: categories["autocomplete"],
-    isNew: true,
   },
   {
     name: "autocomplete-02",
@@ -4306,7 +4399,6 @@ export const components = [
       },
     ],
     category: categories["autocomplete"],
-    isNew: true,
   },
   {
     name: "autocomplete-03",
@@ -4328,7 +4420,6 @@ export const components = [
       },
     ],
     category: categories["autocomplete"],
-    isNew: true,
   },
   {
     name: "autocomplete-04",
@@ -4350,7 +4441,6 @@ export const components = [
       },
     ],
     category: categories["autocomplete"],
-    isNew: true,
   },
   {
     name: "autocomplete-05",
@@ -4372,7 +4462,6 @@ export const components = [
       },
     ],
     category: categories["autocomplete"],
-    isNew: true,
   },
   {
     name: "autocomplete-06",
@@ -4394,7 +4483,6 @@ export const components = [
       },
     ],
     category: categories["autocomplete"],
-    isNew: true,
   },
   {
     name: "context-menu-01",
@@ -4411,7 +4499,6 @@ export const components = [
       },
     ],
     category: categories["context-menu"],
-    isNew: true,
   },
   {
     name: "context-menu-02",
@@ -4428,7 +4515,6 @@ export const components = [
       },
     ],
     category: categories["context-menu"],
-    isNew: true,
   },
   {
     name: "command-01",
@@ -4445,7 +4531,6 @@ export const components = [
       },
     ],
     category: categories["command"],
-    isNew: true,
   },
   {
     name: "command-02",
@@ -4462,7 +4547,6 @@ export const components = [
       },
     ],
     category: categories["command"],
-    isNew: true,
   },
   {
     name: "command-03",
@@ -4479,7 +4563,6 @@ export const components = [
       },
     ],
     category: categories["command"],
-    isNew: true,
   },
   {
     name: "command-04",
@@ -4496,7 +4579,6 @@ export const components = [
       },
     ],
     category: categories["command"],
-    isNew: true,
   },
   {
     name: "command-05",
@@ -4513,7 +4595,6 @@ export const components = [
       },
     ],
     category: categories["command"],
-    isNew: true,
   },
   {
     name: "command-06",
@@ -4530,7 +4611,6 @@ export const components = [
       },
     ],
     category: categories["command"],
-    isNew: true,
   },
   {
     name: "command-07",
@@ -4547,7 +4627,6 @@ export const components = [
       },
     ],
     category: categories["command"],
-    isNew: true,
   },
   {
     name: "code-block-01",
@@ -4569,7 +4648,6 @@ export const components = [
       },
     ],
     category: categories["code-block"],
-    isNew: true,
   },
   {
     name: "code-block-02",
@@ -4591,7 +4669,6 @@ export const components = [
       },
     ],
     category: categories["code-block"],
-    isNew: true,
   },
   {
     name: "code-block-03",
@@ -4613,7 +4690,6 @@ export const components = [
       },
     ],
     category: categories["code-block"],
-    isNew: true,
   },
   {
     name: "code-block-04",
@@ -4635,7 +4711,6 @@ export const components = [
       },
     ],
     category: categories["code-block"],
-    isNew: true,
   },
   {
     name: "code-block-05",
@@ -4657,7 +4732,6 @@ export const components = [
       },
     ],
     category: categories["code-block"],
-    isNew: true,
   },
   {
     name: "code-block-06",
@@ -4679,7 +4753,6 @@ export const components = [
       },
     ],
     category: categories["code-block"],
-    isNew: true,
   },
   {
     name: "code-block-07",
@@ -4701,7 +4774,6 @@ export const components = [
       },
     ],
     category: categories["code-block"],
-    isNew: true,
   },
   {
     name: "kbd-01",
@@ -4718,7 +4790,6 @@ export const components = [
       },
     ],
     category: categories["kbd"],
-    isNew: true,
   },
   {
     name: "kbd-02",
@@ -4735,7 +4806,6 @@ export const components = [
       },
     ],
     category: categories["kbd"],
-    isNew: true,
   },
   {
     name: "kbd-03",
@@ -4752,7 +4822,6 @@ export const components = [
       },
     ],
     category: categories["kbd"],
-    isNew: true,
   },
   {
     name: "kbd-04",
@@ -4769,7 +4838,6 @@ export const components = [
       },
     ],
     category: categories["kbd"],
-    isNew: true,
   },
   {
     name: "kbd-05",
@@ -4786,7 +4854,6 @@ export const components = [
       },
     ],
     category: categories["kbd"],
-    isNew: true,
   },
   {
     name: "label-01",
@@ -4803,7 +4870,6 @@ export const components = [
       },
     ],
     category: categories["label"],
-    isNew: true,
   },
   {
     name: "label-02",
@@ -4820,7 +4886,6 @@ export const components = [
       },
     ],
     category: categories["label"],
-    isNew: true,
   },
   {
     name: "label-03",
@@ -4837,7 +4902,6 @@ export const components = [
       },
     ],
     category: categories["label"],
-    isNew: true,
   },
   {
     name: "label-04",
@@ -4854,7 +4918,6 @@ export const components = [
       },
     ],
     category: categories["label"],
-    isNew: true,
   },
   {
     name: "label-05",
@@ -4871,7 +4934,6 @@ export const components = [
       },
     ],
     category: categories["label"],
-    isNew: true,
   },
   {
     name: "label-06",
@@ -4888,7 +4950,6 @@ export const components = [
       },
     ],
     category: categories["label"],
-    isNew: true,
   },
   {
     name: "separator-01",
@@ -4905,7 +4966,6 @@ export const components = [
       },
     ],
     category: categories["separator"],
-    isNew: true,
   },
   {
     name: "separator-02",
@@ -4922,7 +4982,6 @@ export const components = [
       },
     ],
     category: categories["separator"],
-    isNew: true,
   },
   {
     name: "separator-03",
@@ -4939,7 +4998,6 @@ export const components = [
       },
     ],
     category: categories["separator"],
-    isNew: true,
   },
   {
     name: "separator-04",
@@ -4956,7 +5014,6 @@ export const components = [
       },
     ],
     category: categories["separator"],
-    isNew: true,
   },
   {
     name: "separator-05",
@@ -4973,7 +5030,6 @@ export const components = [
       },
     ],
     category: categories["separator"],
-    isNew: true,
   },
   {
     name: "separator-06",
@@ -4990,7 +5046,6 @@ export const components = [
       },
     ],
     category: categories["separator"],
-    isNew: true,
   },
   {
     name: "separator-07",
@@ -5007,7 +5062,6 @@ export const components = [
       },
     ],
     category: categories["separator"],
-    isNew: true,
   },
   {
     name: "separator-08",
@@ -5024,6 +5078,89 @@ export const components = [
       },
     ],
     category: categories["separator"],
+  },
+  {
+    name: "sheet-01",
+    title: "Sheet 01 - Different Directions",
+    description: "Drawer with different directions - top, right, bottom, left",
+    type: "registry:component",
+    dependencies: [],
+    registryDependencies: ["sheet", "button", "input", "label"],
+    files: [
+      {
+        path: "src/components/shadcn-space/sheet/sheet-01.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/sheet/sheet-01.tsx",
+      },
+    ],
+    category: categories["sheet"],
+    isNew: true,
+  },
+  {
+    name: "sheet-02",
+    title: "Sheet 02 - Scrollable Content",
+    description: "Drawer with scrollable content",
+    type: "registry:component",
+    dependencies: [],
+    registryDependencies: ["sheet", "button", "scroll-area"],
+    files: [
+      {
+        path: "src/components/shadcn-space/sheet/sheet-02.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/sheet/sheet-02.tsx",
+      },
+    ],
+    category: categories["sheet"],
+    isNew: true,
+  },
+  {
+    name: "sheet-03",
+    title: "Sheet 03 - Shopping Cart",
+    description:
+      "Drawer with products list, quantity controls, and sticky footer with total and checkout button",
+    type: "registry:component",
+    dependencies: ["lucide-react"],
+    registryDependencies: [
+      "sheet",
+      "button",
+      "button-group",
+      "badge",
+      "separator",
+    ],
+    files: [
+      {
+        path: "src/components/shadcn-space/sheet/sheet-03.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/sheet/sheet-03.tsx",
+      },
+    ],
+    category: categories["sheet"],
+    isNew: true,
+  },
+  {
+    name: "sheet-04",
+    title: "Sheet 04 - Filter Panel",
+    description:
+      "Drawer with products list, quantity controls, and sticky footer with total and checkout button",
+    type: "registry:component",
+    registryDependencies: [
+      "sheet",
+      "button",
+      "checkbox",
+      "slider",
+      "label",
+      "badge",
+      "separator",
+    ],
+    dependencies: ["lucide-react"],
+    files: [
+      {
+        path: "src/components/shadcn-space/sheet/sheet-04.tsx",
+        type: "registry:component",
+        target: "components/shadcn-space/sheet/sheet-04.tsx",
+      },
+    ],
+    category: categories["sheet"],
     isNew: true,
   },
 ];

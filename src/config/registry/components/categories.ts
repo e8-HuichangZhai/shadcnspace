@@ -416,5 +416,13 @@ export const categories = {
     metaKeyword: "shadcn separator",
     metaTitle: "{count}+ Shadcn Separator Components, Examples & Variants",
     metaDescription: "Explore {count}+ Shadcn Separator components built with React, Tailwind CSS, Base UI. Discover horizontal, vertical, dashed, labeled, gradient, and icon separator examples for modern web projects.",
+  },
+
+  "sheet": {
+    name: "sheet",
+    title: "Sheet",
+    metaKeyword: "shadcn sheet",
+    metaTitle: "{count}+ Modern Shadcn Sheet Components Built with React & Next.js",
+    metaDescription: "Build responsive slide-out panels, sidebars, drawers, and overlays with our Shadcn Sheet Components. Created with Next.js, React, TypeScript, Tailwind CSS, Base UI, and Radix UI for modern web applications.",
   }
 } as const;
